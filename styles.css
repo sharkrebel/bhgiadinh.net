@@ -116,6 +116,19 @@ body {
     gap: 30px;
 }
 
+.announcement-image-container {
+    display: flex;
+    justify-content: center; /* căn giữa ngang */
+    align-items: center;
+    width: 100%;
+}
+
+.announcement-image {
+    max-width: 100%;   /* tự resize theo màn hình */
+    height: auto;      /* giữ đúng tỉ lệ ảnh */
+    display: block;
+}
+
 /* Announcement Card */
 .announcement-card {
     background: var(--bg-card);
